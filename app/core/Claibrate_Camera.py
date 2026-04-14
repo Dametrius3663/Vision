@@ -17,7 +17,7 @@ objpoints = [] # 3d point in real world space
 imgpoints = [] # 2d points in image plane
 
 # Capture video from webcam
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(0)
 
 # Loop to capture images for calibration
 print("Press 'c' to capture a calibration image. Press 'q' to quit.")

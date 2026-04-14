@@ -38,7 +38,7 @@ class Config:
         self.pntr_id = 1
         self.ref_id = 2
 
-        self.camera_id = int(os.getenv("CAMERA_ID", 1))
+        self.camera_id = int(os.getenv("CAMERA_ID", 0))
         #self.assets_folder = os.getenv("ASSETS_FOLDER", "assets")
         #self.model = os.getenv("MODEL", "1130.STL")
        # self.stl_path = os.path.join(self.assets_folder, self.model)
