@@ -35,8 +35,8 @@ class Config:
 
         self.marker_size = 26.5  # In centimeters 
 
-        self.pntr_id = 1
-        self.ref_id = 2
+        self.pntr_id = 8
+        self.ref_id = 9
 
         self.camera_id = int(os.getenv("CAMERA_ID", 0))
         #self.assets_folder = os.getenv("ASSETS_FOLDER", "assets")
